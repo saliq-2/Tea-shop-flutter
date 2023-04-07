@@ -30,13 +30,13 @@ class _OrderPageState extends State<OrderPage> {
   void customizeIce(double value) {
     setState(() {
 
-      Sugar=value;
+      salt=value;
     });
   }
   void customizepearls(double value) {
     setState(() {
 
-      salt=value;
+      Sugar=value;
     });
 }
 
@@ -111,7 +111,7 @@ class _OrderPageState extends State<OrderPage> {
 
                       Padding(
                         padding: const EdgeInsets.only(left: 20),
-                        child: Text("salt     "),
+                        child: Text("Salt     "),
                       ),
 
                       Expanded(
@@ -128,7 +128,7 @@ class _OrderPageState extends State<OrderPage> {
                   ),
 
 
-                  //PearlS
+                  //Sugar
 
 
                   Row(
